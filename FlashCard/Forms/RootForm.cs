@@ -29,12 +29,14 @@ namespace FlashCard.Forms
 
             FormLocation formLocation = DataRepository.FormLocation.GetByPK(_formName);
 
+            Location = new Point(2300,300);
+
             if (formLocation == null)
                 return;
 
-            Width = formLocation.Width;
-            Height = formLocation.Height;
-            Location = new Point(formLocation.X, formLocation.Y);
+//            Width = formLocation.Width;
+//            Height = formLocation.Height;
+//            Location = new Point(formLocation.X, formLocation.Y);
         }
 
         private void RootForm_FormClosing(object sender, FormClosingEventArgs e)

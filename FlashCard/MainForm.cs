@@ -17,5 +17,15 @@ namespace FlashCard
         {
             InitializeComponent();
         }
+
+        private void tsbAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uscBox_ReviewClicked(object sender, Controls.BoxControl.ReviewClickedEventArgs e)
+        {
+            MessageBox.Show($"Category : {e.Category}, CellNo : {e.CellNo}");
+        }
     }
 }

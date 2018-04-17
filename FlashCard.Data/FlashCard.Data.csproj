@@ -83,6 +83,7 @@
     <Compile Include="FormLocation.cs">
       <DependentUpon>FlashCard.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Review.cs">
       <DependentUpon>FlashCard.tt</DependentUpon>
