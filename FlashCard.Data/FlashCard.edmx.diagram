@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dcce19718f8c4fbb8ac969bf967695cd" Name="Diagram1" ZoomLevel="150">
+        <EntityTypeShape EntityType="FlashCardModel.Card" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlashCardModel.CardImage" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlashCardModel.FormLocation" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="FlashCardModel.FK_CardImage_Card" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FlashCardModel.Review" Width="1.5" PointX="3" PointY="3.875" />
+        <AssociationConnector Association="FlashCardModel.FK_Review_Card" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
