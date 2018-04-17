@@ -55,6 +55,16 @@
     <Compile Include="CardImage.cs">
       <DependentUpon>FlashCard.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataRepository.cs" />
+    <Compile Include="Data\CardData.cs" />
+    <Compile Include="Data\CardImageData.cs" />
+    <Compile Include="Data\EntityData.cs" />
+    <Compile Include="Data\FormLocationData.cs" />
+    <Compile Include="Data\ReviewData.cs" />
+    <Compile Include="Entities\Card.cs" />
+    <Compile Include="Entities\CardImage.cs" />
+    <Compile Include="Entities\FormLocation.cs" />
+    <Compile Include="Entities\Review.cs" />
     <Compile Include="FlashCard.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -106,5 +116,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
